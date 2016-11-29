@@ -1,5 +1,5 @@
-﻿REM takeown /A /R /F C:\Windows\winsxs\*
-REM icacls C:\Windows\winsxs\* /T /grant Administrators:(F)
+takeown /A /R /F C:\Windows\winsxs\*
+icacls C:\Windows\winsxs\* /T /grant Administrators:(F)
 
 @echo off
 REM Включаем раскрытие переменных окружения в момент обращения к ним
