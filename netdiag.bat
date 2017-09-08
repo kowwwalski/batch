@@ -9,3 +9,4 @@ tracert %host% >> .\diag-log.txt
 ipconfig /all >> .\diag-log.txt
 route print >> .\diag-log.txt
 echo Diagnostic result has been saved in %folder%\diag-log.txt
+pause
