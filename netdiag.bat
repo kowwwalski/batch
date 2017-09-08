@@ -1,7 +1,7 @@
 @echo off
 ::Diagnose-automata
-date /t > diag-log.txt
-time /t >> diag-log.txt
+date /t > .\diag-log.txt
+time /t >> .\diag-log.txt
 set folder=%cd%
 set /p host=Enter hostname or IP-address:
 ping %host% >> .\diag-log.txt
