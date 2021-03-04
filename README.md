@@ -1,2 +1,0 @@
-# batch
-simple minds
